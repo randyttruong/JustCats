@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Proza+Libre&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap'); </style>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="https://unpkg.com/split-type"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+	<style> @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Proza+Libre&display=swap'); </style>
+	<style> @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap'); </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>just cats.</title>
+</head>
+<body class="bg-mauve">
+   <div class="m-10">
+   <h1 class="text-medium-purple text-8xl text-center flex justify-center" style="font-family:Quicksand; font-weight:bold">just cats</h1>
+   <h2 class="m-2 text-medium-blue-purple text-3xl text-center opacity-70 font-Gloria font-light flex justify-center" style="font-family: 'Gloria Hallelujah', cursive;">literally, just cats</h2>
+   </div> 
+   <div class="m-10" >
+    <object id="catFrame" data="/images/cats.jpg" class="mb-10 h-96 ring-1 ring-gray-700 shadow-xl rounded-xl flex mx-auto justify-center"></object>
+    <button id="catBox" onclick="changeImage()" class="shadow-xl rounded-full flex mx-auto justify-center bg-medium-purple hover:bg-medium-slate-blue focus:outline-none focus:ring-8 focus:ring-medium-blue-purple">
+        <span class="px-10 py-4">
+        <p class="text-slate text-4xl font-display font-bold">cat</p>
+        </span>
+    </button>
+   </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+/* DM-Sans */
+font-family: 'Libre Baskerville', serif;
+font-family: 'Proza Libre', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Gloria Hallelujah', cursive;
+
+
+@font-face{
+    font-family: "Quicksand";
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+}
+
+@font-face{
+    font-family: "DM-Sans";
+    src: url("/fonts/DMSans-Bold.ttf");
+    src: url("/fonts/");
+    font-weight: bold;
+    font-style: normal; 
+}
+
+@font-face{
+    font-family: "DM-Sans";
+    src: url("/fonts/DMSans-Medium.ttf");
+    src: url("/fonts/");
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "DM-Sans";
+    src: url("/fonts/DMSans-MediumItalic.ttf");
+    src: url("/fonts/");
+    font-weight: medium;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "DM-Sans";
+    src: url(/fonts/DMSans-Regular.ttf);
+    src: url(/fonts/DMSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "DM-Sans";
+    src: url("/fonts/DMSans-BoldItalic.ttf");
+    src: url("/fonts/");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "DM-Sans";
+    src: url("/fonts/DMSans-Italic.ttf");
+    src: url("/fonts/");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "DM-Sans";
+    src: ;
+    src: ;
+    font-weight: ;
+    font-style: ;
+}
+
